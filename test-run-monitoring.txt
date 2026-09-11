@@ -1,0 +1,97 @@
+> python src/tests/run_monitoring.py
+[DEBUG] Connection string: InstrumentationKey=5a15eba6-24c9-49d5-8af2-922f19cb3e83;IngestionEndpoint=https://eastus2-3.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus2.livediagnostics.monitor.azure.com/;ApplicationId=ce642033-573f-4978-8e84-8f9595686195
+Loaded 5 test prompts
+Running versions: v1, v2, v3
+
+============================================================
+Running V1 — 5 test prompts
+============================================================
+
+  Test: day-hike-gear
+    Duration : 13.35s
+    Tokens   : 488 (prompt: 66, completion: 422)
+    Response : For a summer day hike on moderate terrain, focus on safety, comfort, and hydrati...
+
+  Test: overnight-camping
+    Duration : 8.46s
+    Tokens   : 828 (prompt: 62, completion: 766)
+    Response : For a first overnight trip, focus on four areas: planning, safety, shelter/sleep...
+
+  Test: three-day-backpacking
+    Duration : 9.27s
+    Tokens   : 906 (prompt: 74, completion: 832)
+    Response : For a 3‑day October mountain trip, think in terms of *conditions, navigation, he...
+
+  Test: trail-difficulty
+    Duration : 17.35s
+    Tokens   : 737 (prompt: 71, completion: 666)
+    Response : To match a trail to your fitness level as a beginner, focus on a few key factors...
+
+  Test: winter-hiking
+    Duration : 5.66s
+    Tokens   : 533 (prompt: 66, completion: 467)
+    Response : For winter hiking you need to plan for cold, snow, ice, and shorter days. Here’s...
+
+============================================================
+Running V2 — 5 test prompts
+============================================================
+
+  Test: day-hike-gear
+    Duration : 8.98s
+    Tokens   : 939 (prompt: 108, completion: 831)
+    Response : For a summer day hike on moderate terrain, think in four categories: safety, com...
+
+  Test: overnight-camping
+    Duration : 12.73s
+    Tokens   : 1359 (prompt: 104, completion: 1255)
+    Response : For a first overnight camping trip, focus on three things: safety, comfort, and ...
+
+  Test: three-day-backpacking
+    Duration : 17.54s
+    Tokens   : 1925 (prompt: 116, completion: 1809)
+    Response : For a 3-day October mountain trip, you’re right to focus on safety—shoulder seas...
+
+  Test: trail-difficulty
+    Duration : 11.88s
+    Tokens   : 1185 (prompt: 113, completion: 1072)
+    Response : To match a trail to your fitness level as a beginner, focus on a few key factors...
+
+  Test: winter-hiking
+    Duration : 12.07s
+    Tokens   : 1423 (prompt: 108, completion: 1315)
+    Response : For winter hiking you need to treat cold, snow, ice, and limited daylight as you...
+
+============================================================
+Running V3 — 5 test prompts
+============================================================
+
+  Test: day-hike-gear
+    Duration : 7.66s
+    Tokens   : 935 (prompt: 164, completion: 771)
+    Response : For a summer day hike on moderate terrain, think in three categories: safety, co...
+
+  Test: overnight-camping
+    Duration : 18.01s
+    Tokens   : 1983 (prompt: 160, completion: 1823)
+    Response : To prepare well, think in four buckets: **you**, **gear**, **camp setup**, and *...
+
+  Test: three-day-backpacking
+    Duration : 12.91s
+    Tokens   : 1454 (prompt: 172, completion: 1282)
+    Response : For a 3-day October mountain trip, think in terms of what can seriously harm you...
+
+  Test: trail-difficulty
+    Duration : 13.08s
+    Tokens   : 1586 (prompt: 169, completion: 1417)
+    Response : To match a trail to your fitness level as a beginner, use a simple checklist bef...
+
+  Test: winter-hiking
+    Duration : 17.35s
+    Tokens   : 1849 (prompt: 164, completion: 1685)
+    Response : Compared to summer, winter hiking adds three big challenges: cold, limited dayli...
+
+============================================================
+All versions complete.
+Open Azure AI Foundry > Tracing to compare spans across versions.
+============================================================
+Telemetry flushed.
